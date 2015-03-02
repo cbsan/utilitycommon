@@ -1,0 +1,20 @@
+{
+    "name": "cbsantos/utilitycommon",
+    "description": "Utilitarios",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Cristian B Santos",
+            "email": "cristian.deveng@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+             "UtilityCommon\\" : "src/"
+        }
+    }
+}
