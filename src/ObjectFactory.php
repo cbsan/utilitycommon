@@ -2,7 +2,7 @@
 
 namespace UtilityCommon;
 
-trait ObjectFactory
+abstract class ObjectFactory
 {
 	public function __set($atrib, $value)
     {
